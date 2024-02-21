@@ -1,0 +1,126 @@
+TEAM:
+Justice Amponsah
+Roles:
+Full stack software engineer
+
+Technologies:
+Languages:
+Python, javascript
+
+Available modes:
+Web, android & IOS. 
+
+Libraries:
+Flask, react native
+
+Resources:
+Welcome to Flask — Flask Documentation (3.0.x) (palletsprojects.com)
+Introduction · React Native
+facebook/react-native: A framework for building native applications using React (github.com)
+
+Technologies alternatives:
+Why choose Flask? - 
+Flask offers more coding flexibility
+Flask is more flexible and provides more control
+Flask offers support for API, while Django doesn’t have any support for API
+Flask offers a diversified working style, while Django offers a Monolithic working style
+
+
+React native edges past  flutter:
+React native uses Javascript(popular programming language with good community support) while flutter uses Dart
+React native uses builtin OS components, which makes components feel more native to end users
+
+Challenge:
+This portfolio project aims to help users convert any currency to another with ease and for free.with bonus of integrating api to third party app.
+
+Who this portfolio project will help:
+Forex traders
+Importing and exporting traders
+Domestic traders
+Travelers
+individuals
+
+This project will not:
+Generate or print money in any way.
+
+
+Is this project relevant or dependent on a specific locale ?:
+This project can be used anywhere and in any part of the world.
+
+
+RISKS
+Technical Risks:
+Integration challenges with external Api:
+Since the project aims to integrate with third-party APIs for currency conversion, there might be challenges in terms of API availability, reliability, and integration complexity. Different APIs may have different data formats, rate limits, and authentication methods, which could pose technical challenges
+           Safeguards or alternatives:
+              Api selection:
+                    Carefully evaluate and choose reliable APIs with proper documentation
+              Multiple API:
+                    Consider integrating with multiple API in case one fails others can provide backup
+
+
+Cross platform Compatibility:
+Developing for multiple platforms (web,android,ios) using different technologies can lead to compatibility issues.
+Ensuring consistent user experience can take a lot of efforts and testing
+          Safeguards or alternatives:
+            Responsive:
+                The UI should be adaptable to any screen sizes.
+           Thorough testing:
+                 Conduct extensive testing on different devices and platforms.
+
+Real time Exchange rate updates:
+Keeping exchange rates up-to-date can be challenging.implementing reliable mechanism to fetch and update rates regularly without affecting performance is crucial
+          Safeguards or alternatives:
+            Scheduled Updates:
+                   schedule regular updates for exchange rates during periods of lower app usage to minimize the impact on performance. 
+
+Non Technical Risks:
+Competition:
+The currency converter market might be saturated with existing solutions.doing competitors' audits could be crucial for success.
+
+Regular Compliance:
+Since the app deals with financial data,there might be regulations to adhere to.Failing to comply could lead to legal issues.
+
+
+Infrastructure
+Branch & merging will not be required.
+
+Strategy For Deployment:
+Choose reliable hosting environment
+Staging environment.Where to conduct  thorough test before deployment
+Conduct Beta test.
+User Feedback
+Scalability planning
+Legal compliance
+Documentation
+
+Populating Data:
+Getting currency exchange rate Through external API.Writing complex logic to get conversion between currencies.
+Testing:
+Unit testing: To test individual components and functions in flask app
+Jest:To test apps and ensure components are rendered correctly and behave as expected.
+Integration Testing: Test interaction between different components.
+Performance Testing: Access performance of apps on different devices.
+User experience Testing:Gather feedback from real users.
+
+
+EXISTING SOLUTIONS
+Similar Product That already exist:
+XE Currency Converter
+Easy Currency Converter
+Exchange Rates-Currency Converter
+All Currency Converter
+My Currency Pro -Converter
+
+Similarities With All Similar Products:
+Provides Real time Exchange Rates
+Extremely beneficial for individuals in business and traders
+Stores last update rates
+Easy UI
+         
+Difference With All Similar Products:
+Some work in offline mode.
+Provides real-time fluctuations in rate as per the market movement.
+XE Currency Converter can be used to send and receive payment.
+Exchange Rates supports crypto currency and other tradable commodities.
+
